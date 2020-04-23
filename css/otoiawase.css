@@ -102,13 +102,11 @@
 	.lineBox{
 		width: 100%;
 	}
-	iframe{
 
-	}
 	.iframeGoogle{
 		-webkit-overflow-scrolling: touch;
 		width: 100%; 
-		height: 800px;
+		margin-bottom: 20px;
 	}
 
 }
