@@ -1,0 +1,166 @@
+
+.centerBox{
+	background-image: url("../img/photo0000-6290.jpg");
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+
+}
+
+.centerBox2{
+	background-color: #e0ffff;
+	width: 100%;
+}
+
+
+.genyakuText{
+	color: #fff;
+	text-align: center;
+	line-height: 250px;
+	font-size: 30px;
+}
+.imagetyouseiBox{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: center;
+}
+img {
+ -ms-interpolation-mode: bicubic; 
+}
+.setumeibox{
+	margin: 0 auto;
+	max-width: 1300px;
+	background-color: #fff;
+}
+.osusumeBox h1{
+	margin: 0;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.osusumeBox{
+	text-align: center;
+	background-color: #1e90ff;
+	color: #fff;
+}
+.osusumeTextBox{
+	background-color: #f2f7fb;
+}
+.setumeiUl{
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.setumeiUl li{
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+}
+.setumeiUl p{
+	text-align: center;
+}
+.hayailessonsBox{
+	text-align: center;
+	background-color: yellow;
+	color: #1e90ff;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.hayailessonsBox h1{
+	margin: 0;
+}
+.hutokufont{
+	font-weight: bold;
+}
+.hutokublue{
+	font-weight: bold;
+	color: #1e90ff;
+	margin-top: 3px;
+
+}
+
+.osieruText{
+	font-size: 25px;
+	margin-top: 3%;
+}
+.otoiawaseBox{
+	background-color: gold;
+	height: 100px;
+}
+
+.kamonBox{
+	padding-bottom: 5%;
+}
+.osusumeBox.newBox{
+	background-color:#ffff00;
+	color: #1e90ff;
+}
+.otoiawaseTextBox{
+	background-color: #f2f7fb;
+}
+.otoiawaseTextBox h2, h1{
+	margin: 0;
+}
+.kamonBox a{
+	text-decoration: none;
+	color: #fff;
+}
+.mousikomiButton{
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	flex-wrap: wrap;
+	background-color: #87cefa;
+	box-shadow: 1px 1px 5px #000;
+	transition: opacity 0.3s ease;
+	padding: 10px;
+	font-size: 20px;
+}
+.mousikomiButton:hover{
+	opacity: 0.8;
+}
+.buttonTyouseiBox{
+	width: 300px;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.kamonBox h1{
+	text-align: center;
+}
+.omatiText{
+	color: orangered;
+	font-size: 25px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 480px){
+	.hayailessonsBox{
+		font-size: 18px;
+	}
+	.genyakuText{
+		font-size: 20px;
+	}	
+	.omatiText{
+		font-size: 18px;
+	}
+	.osieruText{
+		font-size: 18px;
+	}
+	.osusumeBox h1{
+		font-size: 20px;
+	}
+	.setumeiUl li{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 480px){
+	.mousikomiButton{
+		font-size: 15px;
+	}
+}

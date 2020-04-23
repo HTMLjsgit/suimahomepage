@@ -1,0 +1,22 @@
+.bottomBox{
+	background-color: #1e90ff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.bottomBox a{
+	color: #fff;
+	text-decoration: none;
+}
+.bottomBox a:hover{
+	text-decoration: underline;
+	text-decoration-style: #fff; 
+}
+.buttonBox{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: space-between;
+}

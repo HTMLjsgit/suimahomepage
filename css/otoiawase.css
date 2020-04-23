@@ -1,0 +1,114 @@
+
+.line_tag{
+	text-decoration: none;
+}
+.lineBox{
+	margin: 0;
+	width: 450px;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: center;
+	border: 1px solid #ddd;
+	background-color: #4169e1;
+	border-radius: 10px;
+}
+.lineBox:hover{
+	opacity: 0.8;
+}
+.centerBox{
+	margin: 0 auto;
+	max-width: 1300px;
+
+}
+.oto{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	line-height: 33px;
+}
+.imageBox{
+	background-image: url("../img/photo0000-6290.jpg");
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+
+}
+.genyakuText{
+	color: #fff;
+	text-align: center;
+	line-height: 250px;
+	font-size: 30px;
+	margin: 0;
+}
+.backBox{
+	    background-color: #e0ffff;
+	    width: 100%;
+}
+.mainBox{
+	    background-color: #f2f7fb;
+}
+.lineImage{
+	padding-top: 1px;
+	padding-right: 10px;
+}
+.osusumeBox h1{
+	margin: 0;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.osusumeBox{
+	text-align: center;
+	background-color: yellow;
+	color: #1e90ff;
+}
+.linetyouseiBox{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: center;
+}
+.mailBox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+
+}
+.iframeBox{
+
+	display: flex;
+	justify-content: center;
+}
+
+.mailBox a{
+	text-decoration: none;
+}
+.textsitumon{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px){
+	.genyakuText{
+		font-size: 20px;
+	}
+	.lineBox{
+		width: 100%;
+	}
+	iframe{
+
+	}
+	.iframeGoogle{
+		-webkit-overflow-scrolling: touch;
+		width: 100%; 
+		height: 800px;
+	}
+
+}
